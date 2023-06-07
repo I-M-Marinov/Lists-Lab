@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1.SumAdjacentEqualNumbers", "P1.SumAdjacentEqualNumbers\P1.SumAdjacentEqualNumbers.csproj", "{A188C9C6-9E81-48DE-82F8-11CCCCE1B51D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.Gauss'Trick", "P2.Gauss'Trick\P2.Gauss'Trick.csproj", "{7D18C031-326F-4AAC-82AB-F8EE11A01209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3. MergingLists", "P3. MergingLists\P3. MergingLists.csproj", "{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A188C9C6-9E81-48DE-82F8-11CCCCE1B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A188C9C6-9E81-48DE-82F8-11CCCCE1B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A188C9C6-9E81-48DE-82F8-11CCCCE1B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D18C031-326F-4AAC-82AB-F8EE11A01209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D18C031-326F-4AAC-82AB-F8EE11A01209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D18C031-326F-4AAC-82AB-F8EE11A01209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D18C031-326F-4AAC-82AB-F8EE11A01209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
