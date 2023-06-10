@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace P4.ListOfProducts
 {
@@ -6,7 +7,21 @@ namespace P4.ListOfProducts
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int productsNumber = int.Parse(Console.ReadLine());
+            string productName = string.Empty;
+            List<string> productList = new List<string>();
+
+            for (int i = 0; i < productsNumber; i++)
+            {
+                productName = Console.ReadLine();
+                productList.Add(productName);
+            }
+            productList.Sort();
+            for (int i = 1; i < productsNumber+1; i++)
+            {
+
+                Console.WriteLine($"{i}.{productList[i-1]}");
+            }
         }
     }
 }
