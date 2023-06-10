@@ -18,7 +18,6 @@ namespace P5.RemoveNegativesAndReverse
                     i--;
                 }
             }
-
             if (integers.Count > 0)
             {
                 integers.Reverse();
