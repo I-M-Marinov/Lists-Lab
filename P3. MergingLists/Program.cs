@@ -27,19 +27,6 @@ namespace P3._MergingLists
             {
                 resultList.Add(listOfInts2[i]);
             }
-
-
-            //if (list1Length > list2Length)
-            //{
-            //    for (int i = list2Length; i < list1Length; i++)
-            //    {
-            //        resultList.Add(listOfInts1[i]);
-            //    }
-            //}
-            //else
-            //{
-
-            //}
             Console.WriteLine(string.Join(" ", resultList));   
         }
     }
