@@ -8,12 +8,11 @@ namespace P4.ListOfProducts
         static void Main(string[] args)
         {
             int productsNumber = int.Parse(Console.ReadLine());
-            string productName = string.Empty;
             List<string> productList = new List<string>();
 
             for (int i = 0; i < productsNumber; i++)
             {
-                productName = Console.ReadLine();
+                string productName = Console.ReadLine();
                 productList.Add(productName);
             }
             productList.Sort();
