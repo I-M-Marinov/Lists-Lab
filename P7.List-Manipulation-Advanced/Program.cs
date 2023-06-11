@@ -124,7 +124,7 @@ namespace P7.List_Manipulation_Advanced
                         Console.WriteLine();
                     }
                     else if (index[1] == "<=")
-                    {
+                    { 
                         for (int i = 0; i < integersList.Count; i++)
                         {
                             
