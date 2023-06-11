@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace P7.ListManipulationAdvanced
+namespace P7.List_Manipulation_Advanced
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            List<int> integersList = Console.ReadLine().Split().Select(int.Parse).ToList();
+            List<int> integersList = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
             bool isChanged = false;
 
             while (true)
@@ -56,37 +56,22 @@ namespace P7.ListManipulationAdvanced
                 }
                 else if (index[0] == "PrintEven")
                 {
-                    for (int i = 0; i <= integersList.Count-1; i++)
+                    for (int i = 0; i < integersList.Count; i++)
                     {
                         if (integersList[i] % 2 == 0)
                         {
-                            if (integersList[i] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[i]}");
-                            }
-                            else
-                            {
-                                Console.Write($"{integersList[i]} ");
-                            }
-
+                            Console.Write(integersList[i] + " ");
                         }
                     }
                     Console.WriteLine();
                 }
                 else if (index[0] == "PrintOdd")
                 {
-                    for (int i = 0; i <=integersList.Count-1; i++)
+                    for (int i = 0; i <= integersList.Count-1; i++)
                     {
                         if (integersList[i] % 2 != 0)
                         {
-                            if (integersList[i] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[i]}");
-                            }
-                            else
-                            {
-                                Console.Write($"{integersList[i]} ");
-                            }
+                            Console.Write(integersList[i] + " ");
                         }
                     }
                     Console.WriteLine();
@@ -106,31 +91,22 @@ namespace P7.ListManipulationAdvanced
                 {
                     if (index[1] == ">")
                     {
-                        for (int i = 0; i <= integersList.Count; i++)
+                        for (int i = 0; i < integersList.Count; i++)
                         {
                             if (integersList[i] > int.Parse(index[2]))
                             {
-                                Console.Write($"{integersList[i]} ");
+                                Console.Write(integersList[i] + " ");
                             }
-                            else if (integersList[i] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[i]}");
-                            }
-
                         }
                         Console.WriteLine();
                     }
                     else if (index[1] == ">=")
                     {
-                        for (int i = 0; i <= integersList.Count; i++)
+                        for (int i = 0; i < integersList.Count; i++)
                         {
                             if (integersList[i] >= int.Parse(index[2]))
                             {
-                                Console.Write($"{integersList[i]} ");
-                            }
-                            else if (integersList[i] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[i]}");
+                                Console.Write(integersList[i] + " ");
                             }
 
                         }
@@ -138,35 +114,28 @@ namespace P7.ListManipulationAdvanced
                     }
                     else if (index[1] == "<")
                     {
-                        for (int i = 0; i <= integersList.Count; i++)
+                        for (int i = 0; i < integersList.Count; i++)
                         {
                             if (integersList[i] < int.Parse(index[2]))
                             {
-                                Console.Write($"{integersList[i]} ");
-                            }
-                            else if (integersList[i] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[i]}");
+                                Console.Write(integersList[i] + " ");
                             }
                         }
                         Console.WriteLine();
                     }
                     else if (index[1] == "<=")
                     {
-                        foreach (int number in integersList)
+                        for (int i = 0; i < integersList.Count; i++)
                         {
-                            if (integersList[number] <= int.Parse(index[2]))
+                            
+                            if (integersList[i] <= int.Parse(index[2]))
                             {
-                                Console.Write($"{integersList[number]} ");
+                                Console.Write(integersList[i] + " ");
                             }
-                            else if (integersList[number] == integersList.Count)
-                            {
-                                Console.Write($"{integersList[number]}");
-                            }
+                            
                         }
                         Console.WriteLine();
                     }
-
                 }
             }
 
