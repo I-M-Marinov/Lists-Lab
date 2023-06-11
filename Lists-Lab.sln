@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2.Gauss'Trick", "P2.Gauss'
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P3. MergingLists", "P3. MergingLists\P3. MergingLists.csproj", "{4EF232CD-AD6F-4B98-9AD9-61A906576D4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4.ListOfProducts", "P4.ListOfProducts\P4.ListOfProducts.csproj", "{3D1A046C-AB97-4F4B-9FE9-939CA7BE8244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P4.ListOfProducts", "P4.ListOfProducts\P4.ListOfProducts.csproj", "{3D1A046C-AB97-4F4B-9FE9-939CA7BE8244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5.RemoveNegativesAndReverse", "P5.RemoveNegativesAndReverse\P5.RemoveNegativesAndReverse.csproj", "{BD61B92A-E5FF-47B9-A2E6-8D4688C49341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P5.RemoveNegativesAndReverse", "P5.RemoveNegativesAndReverse\P5.RemoveNegativesAndReverse.csproj", "{BD61B92A-E5FF-47B9-A2E6-8D4688C49341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6.ListManipulationBasics", "P6.ListManipulationBasics\P6.ListManipulationBasics.csproj", "{6DBC73BB-C7B5-4015-A8E0-838BD548CBC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P6.ListManipulationBasics", "P6.ListManipulationBasics\P6.ListManipulationBasics.csproj", "{6DBC73BB-C7B5-4015-A8E0-838BD548CBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7.List-Manipulation-Advanced", "P7.List-Manipulation-Advanced\P7.List-Manipulation-Advanced.csproj", "{A60FAC83-E3F9-4C72-B3B7-4019296E536B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6DBC73BB-C7B5-4015-A8E0-838BD548CBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DBC73BB-C7B5-4015-A8E0-838BD548CBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DBC73BB-C7B5-4015-A8E0-838BD548CBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60FAC83-E3F9-4C72-B3B7-4019296E536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60FAC83-E3F9-4C72-B3B7-4019296E536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60FAC83-E3F9-4C72-B3B7-4019296E536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60FAC83-E3F9-4C72-B3B7-4019296E536B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
